@@ -1,0 +1,303 @@
+body {
+    background-color: #E7EAEB !important;
+}
+
+.page-content {
+    background-color: #E7EAEB !important;
+}
+
+.page-bar {
+    border-radius: 0;
+}
+
+.page-bar > .page-breadcrumb {
+    display: block;
+    background: #493D55;
+}
+
+.page-bar-btn{
+    padding: 10px 6px;
+    float: right;
+    color: #000000;
+    font-weight: bold;
+}
+.login .content {
+    width: 490px !important;
+}
+
+.page-header.navbar .page-logo .logo-default {
+    margin: 0;
+}
+
+.page-content-white .page-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.page-content-white hr {
+    height: 1px;
+    background-color: #666666;
+}
+
+@media (min-width: 1200px) {
+    .form-bordered .form-group select {
+        float: left;
+        width: 32%;
+        margin-right: 1%;
+    }
+
+    .form-bordered .form-group input[type='text'] {
+        float: left;
+        width: 65%;
+    }
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.padding-top-none {
+    padding-top: 0;
+}
+
+.margin-bottom-none {
+    margin-bottom: 0 !important;
+}
+
+.margin-top-none {
+    margin-top: 0 !important;
+}
+
+.margin-left-5 {
+    margin-left: 5px !important;
+}
+
+.margin-left-10 {
+    margin-left: 10px !important;
+}
+
+.margin-left-15 {
+    margin-left: 15px !important;
+}
+
+.margin-left-20 {
+    margin-left: 20px !important;
+}
+
+span.one-line {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a.no-decoration {
+    text-decoration: none;
+}
+
+div.bootstrap-tagsinput {
+    width: 80% !important;
+    float: left;
+    cursor: pointer;
+}
+
+div.bootstrap-tagsinput input {
+    cursor: pointer;
+}
+
+.text-center {
+    vertical-align: middle !important;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+    float: inherit !important;
+    text-align: right !important;
+}
+
+.flex {
+    display: flex;
+}
+
+table.table td {
+    vertical-align: middle !important;
+}
+
+table.dataTable td {
+    text-align: center;
+}
+
+html {
+    background: #493D55 !important;
+}
+
+.page-header.navbar {
+    background-color: #51445F;
+}
+
+.page-header.navbar .page-logo {
+    background: #493D55;
+}
+
+.page-sidebar .page-sidebar-menu > li.active.open > a,
+.page-sidebar .page-sidebar-menu > li.active > a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a {
+    background: #16A085;
+}
+
+.page-sidebar .page-sidebar-menu > li.active.open > a:hover,
+.page-sidebar .page-sidebar-menu > li.active > a:hover,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a:hover,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a:hover {
+    background: #16A085;
+}
+
+.page-sidebar .page-sidebar-menu > li.open > a,
+.page-sidebar .page-sidebar-menu > li:hover > a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a {
+    background: #16A085;
+    color: white;
+}
+
+.page-sidebar .page-sidebar-menu > li.open > a i,
+.page-sidebar .page-sidebar-menu > li:hover > a i,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a i,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a i {
+    color: white;
+}
+
+.page-sidebar-menu.page-sidebar-menu-hover-submenu li .sub-menu > li > a {
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.page-content-wrapper {
+    background: #493D55;
+}
+
+.page-content-wrapper .page-content {
+    background: #E7EAEB;
+}
+
+.page-sidebar .page-sidebar-menu {
+    background: #493D55;
+}
+
+.page-sidebar .page-sidebar-menu .sub-menu > li.active > a,
+.page-sidebar .page-sidebar-menu .sub-menu > li.open > a,
+.page-sidebar .page-sidebar-menu .sub-menu > li:hover > a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.active > a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.open > a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li:hover > a {
+    background: #16A085 !important;
+    color: #ffffff;
+}
+
+@media (min-width: 992px) {
+    .page-sidebar-menu.page-sidebar-menu-hover-submenu li .sub-menu > li > a {
+        min-height: 78px;
+        line-height: 78px;
+    }
+
+    .page-sidebar .page-sidebar-menu {
+        margin-bottom: 0 !important;
+    }
+
+    .page-sidebar-menu.page-sidebar-menu-hover-submenu > li:hover > .sub-menu {
+        background: #493D55 !important;
+    }
+}
+
+/*css for page-main*/
+.dashboard-stat {
+    padding: 0 10px 0 10px !important;
+}
+
+.dashboard-stat-head {
+    font-size: 15px;
+    padding: 10px 0 0 0 !important;
+}
+
+.dashboard-stat-body {
+    font-size: 18px !important;
+    padding: 5px 0 10px 0 !important;
+    color: white;
+}
+
+.dashboard-stat-body span:last-child {
+    float: right;
+}
+
+.yellow-pan-row {
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 1px solid;
+    border-color: white;
+    text-align: center;
+}
+
+.yellow-pan {
+    background: #FCEE21;
+    display: table;
+    width: 100%;
+}
+
+.yellow-pan > * {
+    padding: 16px;
+}
+
+.green-pan {
+    display: table;
+    background: #16A085;
+    width: 100%;
+    color: white;
+}
+
+.green-pan > .green-pan-row {
+    border-bottom: 1px solid;
+    border-color: white;
+    padding: 5px;
+    display: table;
+    width: 100%;
+}
+
+.pan-body {
+    padding: 20px 10px 20px 10px !important;
+    font-size: 25px;
+}
+
+.pan-body > span:last-child {
+    float: right;
+}
+
+.green-pan-row > div:first-child {
+    padding-left: 0;
+}
+
+.green-pan-row > div:last-child {
+    padding-right: 0;
+}
+
+.green-pan-row > div > span:last-child {
+    float: right;
+}
+
+.padding-t-38 {
+    padding-top: 38px !important;
+}
+
+.padding-b-10 {
+    padding-bottom: 10px;
+}
+
+.info-label {
+    height: 28px;
+    line-height: 27px;
+    display: inline-block;
+    padding: 0 10px;
+    background: #493D55;
+    color: white;
+    margin-right: -6px;
+}
